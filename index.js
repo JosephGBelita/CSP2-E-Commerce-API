@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended:true}));
 const corsOptions = {
     origin: [
         'http://localhost:3000',
-        'https://csp-3-e-commerce-app.vercel.app/'
+        'https://csp-3-e-commerce-app.vercel.app'
     ],
     credentials: true, 
     optionsSuccessStatus: 200 
